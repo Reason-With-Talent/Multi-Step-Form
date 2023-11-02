@@ -26,6 +26,11 @@ const StepTwo = () => {
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Arcade</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$9/mo</p>
                                 </div>
+                                <div className="mt-[10px] m-[10px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Arcade</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$90/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
+                                </div>
                             </div>
                             <div className="border-2 rounded-xl border-[#9699AB] w-[100%] flex mt-[25px]">
                                 <img src={Advance} className="ml-[20px] m-[10px] w-[15%]" />
@@ -33,12 +38,22 @@ const StepTwo = () => {
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Advanced</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$12/mo</p>
                                 </div>
+                                <div className="mt-[10px] m-[10px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Advanced</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$120/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
+                                </div>
                             </div>
                             <div className="border-2 rounded-xl border-[#9699AB] w-[100%] flex mt-[25px]">
                                 <img src={Pro} className="ml-[20px] m-[10px] w-[15%]" />
                                 <div className="mt-[10px] m-[10px]">
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Pro</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$15/mo</p>
+                                </div>
+                                <div className="mt-[10px] m-[10px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Pro</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$150/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
                                 </div>
                             </div>
                         </div>
@@ -48,8 +63,9 @@ const StepTwo = () => {
                             <h3 className="text-[#9699AB] text-[15px] font-normal pl-[20px]">Yearly</h3>
                         </span>
                     </div>
-                   
                 </div>
+
+
                 <section className="shadow-2xl md:flex bg-[#FFFFFF] md:mt-[60px] rounded-2xl md:w-[70%] md:h-[600px] ">
                     <div className=" bg-[url('assets/IMG/Mainbg.svg')] md:flex hidden bg-auto bg-no-repeat m-4 md:h-[580px] md:w-[30%]">
                         <div className="">
@@ -98,25 +114,40 @@ const StepTwo = () => {
                             <p className="text-[15px] text-[#9699AB] font-normal">You have the option of monthly or yearly billing.</p>
                         </div>
                         <div className=" mt-[40px] ml-[40px] flex">
-                            <div className="border-2 rounded-xl border-[#473DFF] w-[150px] h-[180px] ">
+                            <div className="border-2 rounded-xl border-[#473DFF] w-[150px] h-[210px] ">
                                 <img src={Arcade} className="ml-[20px] mt-[20px]" />
                                 <div className="mt-[40px] ml-[20px]">
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Arcade</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$9/mo</p>
                                 </div>
+                                <div className="mt-[40px] ml-[20px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Arcade</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$90/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
+                                </div>
                             </div>
-                            <div className="border-2 rounded-xl border-[#9699AB] w-[150px] h-[180px] ml-[30px]">
+                            <div className="border-2 rounded-xl border-[#9699AB] w-[150px] h-[210px] ml-[30px]">
                                 <img src={Advance} className="ml-[20px] mt-[20px]" />
                                 <div className="mt-[40px] ml-[20px]">
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Advanced</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$12/mo</p>
                                 </div>
+                                <div className="mt-[40px] ml-[20px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Advanced</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$120/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
+                                </div>
                             </div>
-                            <div className="border-2 rounded-xl border-[#9699AB] w-[150px] h-[180px] ml-[30px]">
+                            <div className="border-2 rounded-xl border-[#9699AB] w-[150px] h-[210px] ml-[30px]">
                                 <img src={Pro} className="ml-[20px] mt-[20px]" />
                                 <div className="mt-[40px] ml-[20px]">
                                     <h2 className="text-[#02295A] text-[18px] font-medium">Pro</h2>
                                     <p className="text-[#9699AB] text-[15px] font-normal">$15/mo</p>
+                                </div>
+                                <div className="mt-[40px] ml-[20px] hidden">
+                                    <h2 className="text-[#02295A] text-[18px] font-medium">Pro</h2>
+                                    <p className="text-[#9699AB] text-[15px] font-normal">$150/yr</p>
+                                    <h5 className="text-[15px] font-normal text-[#02295A]">2 Months Free</h5>
                                 </div>
                             </div>
                         </div>
@@ -125,19 +156,17 @@ const StepTwo = () => {
 
                             <h3 className="text-[#9699AB] text-[15px] font-normal pl-[20px]">Yearly</h3>
                         </span>
-                        <div className=" flex justify-between mt-[90px]">
+                        <div className=" flex justify-between mt-[70px]">
                             <button className="text-[#9699AB] font-normal text-[15px] ml-[70px]">Go Back</button>
                             <button className="p-[10px] font-normal text-md rounded-lg bg-[#02295A] text-[#FFFFFF] w-[20%]">Next Step</button>
                         </div>
                     </div>
-
                 </section>
-
             </div>
             <div className="md:hidden flex justify-between px-[20px] py-[20px]">
-                            <button className="text-[#9699AB] font-normal text-[15px]">Go Back</button>
-                            <button className="p-[10px] font-normal text-md rounded-md bg-[#02295A] text-[#FFFFFF] w-[30%]">Next Step</button>
-                        </div>
+                <button className="text-[#9699AB] font-normal text-[15px]">Go Back</button>
+                <button className="p-[10px] font-normal text-md rounded-md bg-[#02295A] text-[#FFFFFF] w-[30%]">Next Step</button>
+            </div>
         </>
     )
 }
